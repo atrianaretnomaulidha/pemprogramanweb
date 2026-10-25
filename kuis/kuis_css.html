@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atriana Retno Maulidha - Kuis CSS HTML</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(83, 78, 78);
+        }
+
+        table {
+            background-color: white;
+            margin: auto auto;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid;
+            padding: 8px;
+            border-color: black;
+        }
+
+        thead {
+            background-color: pink;
+            color: white
+        }
+
+        .total {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .total harga {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>
+        Nama: Atriana Retno Maulidha<br>
+        NIM: E030426013
+    </h3>
+    <hr>
+
+    <section>
+        <h1> Daftar Harga Layanan</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Paket Layanan</th>
+                    <th>Kategori</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Landing Page UMKM</td>
+                    <td>Web Development</td>
+                    <td>Rp 1.500.000</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Logo & Branding</td>
+                    <td>Graphic Design</td>
+                    <td>Rp 500.000</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Website Bisnis Full</td>
+                    <td>Web Development</td>
+                    <td>Rp 3.500.000</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="total">Total Biaya:</td>
+                    <td class="total harga" 5.500.000></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+</body>
